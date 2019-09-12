@@ -16,7 +16,8 @@ In this project you'll choose an api to consume. You will build an application f
 
 ## Project Set Up
 
-- [x] Create a forked copy of this project.
+- [x] Create a forked copy of this project.isFetching: false,
+  error: ''
 - [x] Add your team lead as collaborator on Github.
 - [x] Clone your OWN version of the repository in your terminal
 - [x] CD into the project base directory `cd react-redux-app`
@@ -35,10 +36,10 @@ Follow these steps for completing your project.
 
 ## Minimum Viable Product
 
-- [ ] Build a React Redux app
-- [ ] Fetch data inside an async action creator from an API of your choosing
-- [ ] Add the data from the API to the Redux store
-- [ ] Display the data from the store in a component
+- [x] Build a React Redux app
+- [x] Fetch data inside an async action creator from an API of your choosing
+- [x] Add the data from the API to the Redux store
+- [x] Display the data from the store in a component
 - [ ] _Some_ styling must be applied. It can be basic, but the app must not only use browser default stylings
 
 ## Directions
