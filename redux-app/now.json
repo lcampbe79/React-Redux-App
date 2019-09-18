@@ -1,0 +1,9 @@
+In you project base directory - create a now.json config file with:
+{
+    "version": 2,
+    "name": "redux-app",
+    "builds": [{ "src": "redux-app/package.json", "use": "@now/static-build", "config": {"distDir": "build"} }],
+    "routes": [
+        { "src": "/(.*)", "dest": "redux-app/$1" }
+    ]
+}
